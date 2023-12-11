@@ -23,8 +23,11 @@ const useSelectCurrency = (label, options) => {
 
   const SelectCurrencies = () => (
         <>
-            <Label>{label}</Label>
+            <Label
+                htmlFor='currency'
+            >{label}</Label>
             <Select
+                id='currency'
                 value={state}
                 onChange={e => setState(e.target.value)}
             >
