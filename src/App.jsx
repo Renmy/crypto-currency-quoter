@@ -18,8 +18,7 @@ const Container = styled.div`
  
 const Image = styled.img`
   max-width: 400px;
-  width: 80%;
-  height: auto;
+  
   margin: 100px auto 0 auto;
   display: block;
 `
@@ -72,6 +71,8 @@ function App() {
       <Image 
         src={ImgCrypto}
         alt='crypto Img'
+        width='80%'
+        height='auto'
       />
       <div>
         <Heading>Instant Quote Crypto Currencies</Heading>
