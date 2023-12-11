@@ -4,7 +4,7 @@ import Error from './Error'
 import useSelectCurrency from '../hooks/useSelectCurrency'
 
 const InputSubmit = styled.input`
-    background-color: #9497ff;
+    background-color: #004182;
     border: none;
     width: 100%;
     padding: 10px;
